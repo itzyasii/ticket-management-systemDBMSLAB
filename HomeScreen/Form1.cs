@@ -12,6 +12,7 @@ namespace HomeScreen
 {
     public partial class Form1 : Form
     {
+        string name;
         public Form1()
         {
             InitializeComponent();
@@ -19,7 +20,10 @@ namespace HomeScreen
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello there...");
+            name = textBox1.Text;
+
+            MessageBox.Show($"Hello there {name}");
+            textBox1.Text = "";
         }
     }
 }
