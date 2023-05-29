@@ -28,18 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.signin = new System.Windows.Forms.Button();
+            this.signup = new System.Windows.Forms.Button();
             this.HomeButton = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // signin
+            // 
+            this.signin.BackColor = System.Drawing.Color.DodgerBlue;
+            this.signin.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.signin.FlatAppearance.BorderSize = 3;
+            this.signin.Font = new System.Drawing.Font("Mongolian Baiti", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signin.ForeColor = System.Drawing.Color.White;
+            this.signin.Location = new System.Drawing.Point(1066, 29);
+            this.signin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.signin.Name = "signin";
+            this.signin.Size = new System.Drawing.Size(131, 43);
+            this.signin.TabIndex = 1;
+            this.signin.Text = "SIGN IN";
+            this.signin.UseVisualStyleBackColor = false;
+            this.signin.Click += new System.EventHandler(this.signin_Click);
+            // 
+            // signup
+            // 
+            this.signup.BackColor = System.Drawing.Color.DodgerBlue;
+            this.signup.FlatAppearance.BorderSize = 3;
+            this.signup.Font = new System.Drawing.Font("Mongolian Baiti", 14F, System.Drawing.FontStyle.Bold);
+            this.signup.ForeColor = System.Drawing.Color.White;
+            this.signup.Location = new System.Drawing.Point(1234, 29);
+            this.signup.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.signup.Name = "signup";
+            this.signup.Size = new System.Drawing.Size(139, 43);
+            this.signup.TabIndex = 2;
+            this.signup.Text = "SIGN UP";
+            this.signup.UseVisualStyleBackColor = false;
+            this.signup.Click += new System.EventHandler(this.signup_Click);
             // 
             // HomeButton
             // 
             this.HomeButton.Image = ((System.Drawing.Image)(resources.GetObject("HomeButton.Image")));
-            this.HomeButton.Location = new System.Drawing.Point(721, 14);
+            this.HomeButton.Location = new System.Drawing.Point(481, 20);
             this.HomeButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.HomeButton.Name = "HomeButton";
             this.HomeButton.Size = new System.Drawing.Size(285, 91);
@@ -47,23 +76,14 @@
             this.HomeButton.UseVisualStyleBackColor = true;
             this.HomeButton.Click += new System.EventHandler(this.HomeButton_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(259, 215);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1287, 478);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1845, 986);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(1382, 793);
+            this.Controls.Add(this.signup);
+            this.Controls.Add(this.signin);
             this.Controls.Add(this.HomeButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -72,7 +92,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bookme.pk - Home";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -80,8 +99,8 @@
         #endregion
 
         private System.Windows.Forms.Button HomeButton;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button signin;
+        private System.Windows.Forms.Button signup;
     }
 }
 
