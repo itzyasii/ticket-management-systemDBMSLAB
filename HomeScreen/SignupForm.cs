@@ -62,7 +62,7 @@ namespace HomeScreen
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-
+            textBox3.UseSystemPasswordChar = true;
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -125,7 +125,7 @@ namespace HomeScreen
                 int id = GenerateUniqueId();
 
                 // Insert the user data into the database
-                string connectionString = "your_connection_string"; // Replace with your actual connection string
+                string connectionString = "Data Source=(localdb)\\bookmedatabase;Initial Catalog=BOOKMEDATABASE;Integrated Security=True"; // Replace with your actual connection string
 
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {

@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SigninForm));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.username = new System.Windows.Forms.TextBox();
-            this.password = new System.Windows.Forms.TextBox();
+            this.user = new System.Windows.Forms.TextBox();
+            this.pass = new System.Windows.Forms.TextBox();
             this.HomeButton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -66,21 +66,21 @@
             this.label2.Text = "Password";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // username
+            // user
             // 
-            this.username.Location = new System.Drawing.Point(1123, 321);
-            this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(174, 22);
-            this.username.TabIndex = 2;
-            this.username.TextChanged += new System.EventHandler(this.username_TextChanged);
+            this.user.Location = new System.Drawing.Point(1123, 321);
+            this.user.Name = "user";
+            this.user.Size = new System.Drawing.Size(174, 22);
+            this.user.TabIndex = 2;
+            this.user.TextChanged += new System.EventHandler(this.username_TextChanged);
             // 
-            // password
+            // pass
             // 
-            this.password.Location = new System.Drawing.Point(1123, 416);
-            this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(174, 22);
-            this.password.TabIndex = 3;
-            this.password.TextChanged += new System.EventHandler(this.password_TextChanged);
+            this.pass.Location = new System.Drawing.Point(1123, 416);
+            this.pass.Name = "pass";
+            this.pass.Size = new System.Drawing.Size(174, 22);
+            this.pass.TabIndex = 3;
+            this.pass.TextChanged += new System.EventHandler(this.password_TextChanged);
             // 
             // HomeButton
             // 
@@ -154,8 +154,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.HomeButton);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.password);
-            this.Controls.Add(this.username);
+            this.Controls.Add(this.pass);
+            this.Controls.Add(this.user);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -172,8 +172,8 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox username;
-        private System.Windows.Forms.TextBox password;
+        private System.Windows.Forms.TextBox user;
+        private System.Windows.Forms.TextBox pass;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button HomeButton;
         private System.Windows.Forms.Label label3;
