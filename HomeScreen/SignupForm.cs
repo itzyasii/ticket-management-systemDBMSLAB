@@ -106,8 +106,8 @@ namespace HomeScreen
         {
          
                 // Get the input values from the TextBoxes
-                string username = textBox1.Text;
-                string firstName = textBox2.Text;
+                string username = textBox2.Text;
+                string firstName = textBox1.Text;
                 string password = textBox3.Text;
                 string email = textBox4.Text;
                 string cnic = textBox5.Text;
