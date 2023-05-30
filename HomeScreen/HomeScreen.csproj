@@ -111,5 +111,11 @@
   <ItemGroup>
     <None Include="images\rentcarweb.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-vlada-karpovich-7365326.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -39,14 +39,12 @@ namespace HomeScreen
         {
             SigninForm signinForm = new SigninForm();
             signinForm.Show();
-            this.Hide();
         }
 
         private void signup_Click(object sender, EventArgs e)
         {
             SignupForm signupForm = new SignupForm();
             signupForm.Show();
-            this.Hide();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
