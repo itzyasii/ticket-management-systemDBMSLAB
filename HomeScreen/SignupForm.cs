@@ -25,11 +25,6 @@ namespace HomeScreen
             this.Hide();
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -125,7 +120,7 @@ namespace HomeScreen
                 int id = GenerateUniqueId();
 
                 // Insert the user data into the database
-                string connectionString = "Data Source=(localdb)\\bookmedatabase;Initial Catalog=BOOKMEDATABASE;Integrated Security=True"; // Replace with your actual connection string
+                string connectionString = "Data Source=MAAZ\\SQLEXPRESS;Initial Catalog=master;Integrated Security=True"; // Replace with your actual connection string
 
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
@@ -151,8 +146,10 @@ namespace HomeScreen
                 textBox3.Clear();
                 textBox4.Clear();
                 textBox5.Clear();
-            
 
+            SigninForm s1 = new SigninForm();
+            s1.Show();
+            this.Hide();
         }
 
         private int GenerateUniqueId()
@@ -169,6 +166,13 @@ namespace HomeScreen
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form1 f1 = new Form1();
+            f1.Show();
+            this.Hide();
         }
     }
 }

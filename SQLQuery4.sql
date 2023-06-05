@@ -1,0 +1,7 @@
+SELECT TOP (1000) [id]
+      ,[username]
+      ,[user_Fname]
+      ,[user_pass]
+      ,[email]
+      ,[cnic]
+  FROM [master].[dbo].[UserInformation]
