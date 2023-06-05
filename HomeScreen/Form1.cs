@@ -18,10 +18,7 @@ namespace HomeScreen
         {
             InitializeComponent();
             
-
         }
-
-
         private void HomeButton_Click(object sender, EventArgs e)
         {
             // Handle HomeButton click event
@@ -47,6 +44,16 @@ namespace HomeScreen
             SignupForm signupForm = new SignupForm();
             signupForm.Show();
             this.Hide();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            mainpage m1 = new mainpage();
+            m1.Show();
         }
     }
 }
