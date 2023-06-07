@@ -19,3 +19,9 @@ Date date,
 );
 
 
+create table SeatStatus(
+[Seat no] int not null,
+Status nvarchar(50) not null,
+Price int not null
+);
+
