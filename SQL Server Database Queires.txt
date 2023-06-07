@@ -11,3 +11,11 @@ cnic int not null
 );
 
 
+create table Bus_User_Details(
+Departure nvarchar(50),
+Arrival nchar(10),
+Date date,
+[Seat no] nvarchar(59) not null
+);
+
+
