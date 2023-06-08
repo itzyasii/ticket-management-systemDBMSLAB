@@ -25,3 +25,26 @@ Status nvarchar(50) not null,
 Price int not null
 );
 
+// Train Databse Queries
+
+create table TrainDatabase(
+CoachNo int not null,
+availableSeats int not null,
+DepartureStation varchar(50) not null,
+ArrivalStation varchar(50) not null,
+
+
+);
+
+create table trainTicketBooking(
+ticketID int not null,
+passengerName varchar(50) not null,
+departreStatiom varchar(50) not null,
+arrivalStation varchar(50) not null,
+seatNumber int not null,
+fare float not null,
+bookingDate Date not null,
+ticketStatus varchar(50),
+paymentStatus varchar(50) not null
+
+);
