@@ -38,9 +38,10 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.Image = global::HomeScreen.Properties.Resources.movies;
-            this.pictureBox1.Location = new System.Drawing.Point(-28, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(114, 1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1137, 142);
+            this.pictureBox1.Size = new System.Drawing.Size(1011, 114);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -58,9 +59,10 @@
             "Islamabad",
             "Multan ",
             "lahore"});
-            this.comboBox1.Location = new System.Drawing.Point(448, 173);
+            this.comboBox1.Location = new System.Drawing.Point(537, 138);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(252, 31);
+            this.comboBox1.Size = new System.Drawing.Size(224, 29);
             this.comboBox1.TabIndex = 1;
             this.comboBox1.Text = "City";
             // 
@@ -72,22 +74,24 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(448, 217);
+            this.button1.Location = new System.Drawing.Point(537, 176);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(252, 41);
+            this.button1.Size = new System.Drawing.Size(224, 33);
             this.button1.TabIndex = 2;
             this.button1.Text = "Search";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // movies
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1108, 766);
+            this.ClientSize = new System.Drawing.Size(1262, 673);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "movies";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

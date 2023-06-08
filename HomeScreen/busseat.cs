@@ -71,9 +71,9 @@ namespace HomeScreen
         }
         private void alreadybooked()
         {
-            String mycon = "Data Source=MAAZ\\SQLEXPRESS;Initial Catalog=master;Integrated Security=True";
-            String myquery = "Select * from Seatstatus";
-            SqlConnection con = new SqlConnection(mycon);
+         
+            String myquery = "Select * from SeatStatus";
+            SqlConnection con = new SqlConnection("Data Source = (localdb)\\bookmedatabase; Initial Catalog = BOOKMEDATABASE; Integrated Security = True");
             SqlCommand cmd = new SqlCommand();
             cmd.CommandText = myquery;
             cmd.Connection = con;
