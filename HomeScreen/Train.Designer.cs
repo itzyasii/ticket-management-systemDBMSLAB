@@ -77,6 +77,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(399, 30);
             this.dateTimePicker1.TabIndex = 3;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // comboBox2
             // 
@@ -89,6 +90,7 @@
             this.comboBox2.Size = new System.Drawing.Size(197, 29);
             this.comboBox2.TabIndex = 2;
             this.comboBox2.Text = "To";
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // comboBox1
             // 
@@ -101,6 +103,7 @@
             this.comboBox1.Size = new System.Drawing.Size(197, 29);
             this.comboBox1.TabIndex = 1;
             this.comboBox1.Text = "From";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -133,6 +136,7 @@
             this.ClientSize = new System.Drawing.Size(1262, 673);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "Train";
