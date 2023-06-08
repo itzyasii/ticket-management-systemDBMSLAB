@@ -48,6 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BOOKMEDATABASEDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BOOKMEDATABASEDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Bus.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -155,6 +160,17 @@
     <EmbeddedResource Include="Train.resx">
       <DependentUpon>Train.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="BOOKMEDATABASEDataSet.xsc">
+      <DependentUpon>BOOKMEDATABASEDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BOOKMEDATABASEDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BOOKMEDATABASEDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BOOKMEDATABASEDataSet.xss">
+      <DependentUpon>BOOKMEDATABASEDataSet.xsd</DependentUpon>
+    </None>
     <None Include="masterDataSet.xsc">
       <DependentUpon>masterDataSet.xsd</DependentUpon>
     </None>

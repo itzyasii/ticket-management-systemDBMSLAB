@@ -120,7 +120,7 @@ namespace HomeScreen
                 int id = GenerateUniqueId();
 
                 // Insert the user data into the database
-                string connectionString = "Data Source=MAAZ\\SQLEXPRESS;Initial Catalog=master;Integrated Security=True"; // Replace with your actual connection string
+                string connectionString = "Data Source=(localdb)\\bookmedatabase;Initial Catalog=BOOKMEDATABASE;Integrated Security=True"; // Replace with your actual connection string
 
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {

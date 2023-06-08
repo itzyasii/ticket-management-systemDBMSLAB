@@ -68,7 +68,7 @@ namespace HomeScreen
             }
             else
             {
-                string connectionString = "Data Source=MAAZ\\SQLEXPRESS;Initial Catalog=master;Integrated Security=True"; // Replace with your actual connection string
+                string connectionString = "Data Source=(localdb)\\bookmedatabase;Initial Catalog=BOOKMEDATABASE;Integrated Security=True"; // Replace with your actual connection string
                 string username = user.Text;
                 string password = pass.Text;
            
