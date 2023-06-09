@@ -53,7 +53,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(434, 275);
             this.panel1.TabIndex = 1;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // button1
             // 
@@ -63,7 +62,7 @@
             this.button1.Location = new System.Drawing.Point(19, 200);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(448, 52);
+            this.button1.Size = new System.Drawing.Size(398, 42);
             this.button1.TabIndex = 4;
             this.button1.Text = "BOOK";
             this.button1.UseVisualStyleBackColor = false;
@@ -76,7 +75,7 @@
             this.dateTimePicker1.Location = new System.Drawing.Point(19, 138);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(448, 34);
+            this.dateTimePicker1.Size = new System.Drawing.Size(399, 30);
             this.dateTimePicker1.TabIndex = 3;
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
@@ -88,7 +87,7 @@
             this.comboBox2.Location = new System.Drawing.Point(220, 82);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(221, 31);
+            this.comboBox2.Size = new System.Drawing.Size(197, 29);
             this.comboBox2.TabIndex = 2;
             this.comboBox2.Text = "To";
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
@@ -101,7 +100,7 @@
             this.comboBox1.Location = new System.Drawing.Point(19, 82);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(221, 31);
+            this.comboBox1.Size = new System.Drawing.Size(197, 29);
             this.comboBox1.TabIndex = 1;
             this.comboBox1.Text = "From";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
@@ -113,17 +112,17 @@
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.label1.Location = new System.Drawing.Point(44, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(424, 23);
+            this.label1.Size = new System.Drawing.Size(358, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "We\'re bringing you a new level of comfort.";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-1, -186);
+            this.pictureBox1.Location = new System.Drawing.Point(-1, -149);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1426, 1220);
+            this.pictureBox1.Size = new System.Drawing.Size(1268, 976);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -131,10 +130,10 @@
             // 
             // Train
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1420, 841);
+            this.ClientSize = new System.Drawing.Size(1262, 673);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

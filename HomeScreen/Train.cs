@@ -97,11 +97,6 @@ namespace HomeScreen
         {
 
         }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }
 ///comboBox1.Items.Add("Karachi");
