@@ -1180,8 +1180,7 @@ namespace HomeScreen
                     }
                     else
                     {
-                        // If passengerName is empty, you can either provide a default value or handle it accordingly
-                        // For example, you can set it as DBNull.Value or throw an exception
+                   
                         command.Parameters.AddWithValue("@p_name", DBNull.Value);
                         // throw new Exception("Passenger name is required."); // Example of throwing an exception
                     }
@@ -1193,6 +1192,8 @@ namespace HomeScreen
                     command.Parameters.AddWithValue("@b_date", bookingDate);
                     command.Parameters.AddWithValue("@t_status", t_Status);
                     command.Parameters.AddWithValue("@p_status", p_Status);
+
+
                     command.ExecuteNonQuery();
 
                 }
