@@ -27,6 +27,7 @@ namespace HomeScreen
                 bus_seat_price = new int[20];
                 bookedseat = new int[20];
                 tempbookseat = new int[20];
+
                 tempbookseat[0] = 0;
                 bus_seat_price[0] = 600;
                 tempbookseat[1] = 0;

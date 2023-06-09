@@ -30,183 +30,193 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TrainCompartments));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button40 = new System.Windows.Forms.Button();
-            this.button39 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button36 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
+            this.coach8 = new System.Windows.Forms.Button();
+            this.coach7 = new System.Windows.Forms.Button();
+            this.coach6 = new System.Windows.Forms.Button();
+            this.coach5 = new System.Windows.Forms.Button();
+            this.coach4 = new System.Windows.Forms.Button();
+            this.coach3 = new System.Windows.Forms.Button();
+            this.coach2 = new System.Windows.Forms.Button();
+            this.coach1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.seat7 = new System.Windows.Forms.Button();
+            this.seat6 = new System.Windows.Forms.Button();
+            this.seat5 = new System.Windows.Forms.Button();
+            this.seat4 = new System.Windows.Forms.Button();
+            this.seat3 = new System.Windows.Forms.Button();
+            this.seat2 = new System.Windows.Forms.Button();
+            this.seat1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
+            this.berth24 = new System.Windows.Forms.Button();
+            this.berth23 = new System.Windows.Forms.Button();
+            this.berth22 = new System.Windows.Forms.Button();
+            this.berth21 = new System.Windows.Forms.Button();
+            this.berth20 = new System.Windows.Forms.Button();
+            this.berth19 = new System.Windows.Forms.Button();
+            this.berth18 = new System.Windows.Forms.Button();
+            this.berth17 = new System.Windows.Forms.Button();
+            this.berth16 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
+            this.berth15 = new System.Windows.Forms.Button();
+            this.berth14 = new System.Windows.Forms.Button();
+            this.berth13 = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.berth12 = new System.Windows.Forms.Button();
+            this.berth11 = new System.Windows.Forms.Button();
+            this.berth10 = new System.Windows.Forms.Button();
+            this.berth9 = new System.Windows.Forms.Button();
+            this.berth8 = new System.Windows.Forms.Button();
+            this.berth7 = new System.Windows.Forms.Button();
+            this.berth6 = new System.Windows.Forms.Button();
+            this.berth5 = new System.Windows.Forms.Button();
+            this.berth4 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.berth3 = new System.Windows.Forms.Button();
+            this.berth2 = new System.Windows.Forms.Button();
+            this.berth1 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.button25 = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.Bseat_price = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.bookme = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.button40);
-            this.panel1.Controls.Add(this.button39);
-            this.panel1.Controls.Add(this.button38);
-            this.panel1.Controls.Add(this.button37);
-            this.panel1.Controls.Add(this.button36);
-            this.panel1.Controls.Add(this.button35);
-            this.panel1.Controls.Add(this.button34);
-            this.panel1.Controls.Add(this.button33);
+            this.panel1.Controls.Add(this.coach8);
+            this.panel1.Controls.Add(this.coach7);
+            this.panel1.Controls.Add(this.coach6);
+            this.panel1.Controls.Add(this.coach5);
+            this.panel1.Controls.Add(this.coach4);
+            this.panel1.Controls.Add(this.coach3);
+            this.panel1.Controls.Add(this.coach2);
+            this.panel1.Controls.Add(this.coach1);
             this.panel1.Location = new System.Drawing.Point(0, 77);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1450, 68);
             this.panel1.TabIndex = 0;
             // 
-            // button40
+            // coach8
             // 
-            this.button40.BackColor = System.Drawing.Color.Green;
-            this.button40.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button40.ForeColor = System.Drawing.Color.White;
-            this.button40.Location = new System.Drawing.Point(1227, 15);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(147, 36);
-            this.button40.TabIndex = 0;
-            this.button40.Text = "Coach # 8";
-            this.button40.UseVisualStyleBackColor = false;
-            this.button40.Click += new System.EventHandler(this.button40_Click);
+            this.coach8.BackColor = System.Drawing.Color.Green;
+            this.coach8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coach8.ForeColor = System.Drawing.Color.White;
+            this.coach8.Location = new System.Drawing.Point(1227, 15);
+            this.coach8.Name = "coach8";
+            this.coach8.Size = new System.Drawing.Size(147, 36);
+            this.coach8.TabIndex = 0;
+            this.coach8.Text = "Coach # 8";
+            this.coach8.UseVisualStyleBackColor = false;
+            this.coach8.Click += new System.EventHandler(this.button40_Click);
             // 
-            // button39
+            // coach7
             // 
-            this.button39.BackColor = System.Drawing.Color.Green;
-            this.button39.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button39.ForeColor = System.Drawing.Color.White;
-            this.button39.Location = new System.Drawing.Point(1058, 15);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(147, 36);
-            this.button39.TabIndex = 0;
-            this.button39.Text = "Coach # 7";
-            this.button39.UseVisualStyleBackColor = false;
-            this.button39.Click += new System.EventHandler(this.button39_Click);
+            this.coach7.BackColor = System.Drawing.Color.Green;
+            this.coach7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coach7.ForeColor = System.Drawing.Color.White;
+            this.coach7.Location = new System.Drawing.Point(1058, 15);
+            this.coach7.Name = "coach7";
+            this.coach7.Size = new System.Drawing.Size(147, 36);
+            this.coach7.TabIndex = 0;
+            this.coach7.Text = "Coach # 7";
+            this.coach7.UseVisualStyleBackColor = false;
+            this.coach7.Click += new System.EventHandler(this.button39_Click);
             // 
-            // button38
+            // coach6
             // 
-            this.button38.BackColor = System.Drawing.Color.Green;
-            this.button38.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button38.ForeColor = System.Drawing.Color.White;
-            this.button38.Location = new System.Drawing.Point(888, 15);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(147, 36);
-            this.button38.TabIndex = 0;
-            this.button38.Text = "Coach # 6";
-            this.button38.UseVisualStyleBackColor = false;
-            this.button38.Click += new System.EventHandler(this.button38_Click);
+            this.coach6.BackColor = System.Drawing.Color.Green;
+            this.coach6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coach6.ForeColor = System.Drawing.Color.White;
+            this.coach6.Location = new System.Drawing.Point(888, 15);
+            this.coach6.Name = "coach6";
+            this.coach6.Size = new System.Drawing.Size(147, 36);
+            this.coach6.TabIndex = 0;
+            this.coach6.Text = "Coach # 6";
+            this.coach6.UseVisualStyleBackColor = false;
+            this.coach6.Click += new System.EventHandler(this.button38_Click);
             // 
-            // button37
+            // coach5
             // 
-            this.button37.BackColor = System.Drawing.Color.Green;
-            this.button37.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button37.ForeColor = System.Drawing.Color.White;
-            this.button37.Location = new System.Drawing.Point(717, 15);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(147, 36);
-            this.button37.TabIndex = 0;
-            this.button37.Text = "Coach # 5";
-            this.button37.UseVisualStyleBackColor = false;
-            this.button37.Click += new System.EventHandler(this.button37_Click);
+            this.coach5.BackColor = System.Drawing.Color.Green;
+            this.coach5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coach5.ForeColor = System.Drawing.Color.White;
+            this.coach5.Location = new System.Drawing.Point(717, 15);
+            this.coach5.Name = "coach5";
+            this.coach5.Size = new System.Drawing.Size(147, 36);
+            this.coach5.TabIndex = 0;
+            this.coach5.Text = "Coach # 5";
+            this.coach5.UseVisualStyleBackColor = false;
+            this.coach5.Click += new System.EventHandler(this.button37_Click);
             // 
-            // button36
+            // coach4
             // 
-            this.button36.BackColor = System.Drawing.Color.Green;
-            this.button36.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button36.ForeColor = System.Drawing.Color.White;
-            this.button36.Location = new System.Drawing.Point(545, 15);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(147, 36);
-            this.button36.TabIndex = 0;
-            this.button36.Text = "Coach # 4";
-            this.button36.UseVisualStyleBackColor = false;
-            this.button36.Click += new System.EventHandler(this.button36_Click);
+            this.coach4.BackColor = System.Drawing.Color.Green;
+            this.coach4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coach4.ForeColor = System.Drawing.Color.White;
+            this.coach4.Location = new System.Drawing.Point(545, 15);
+            this.coach4.Name = "coach4";
+            this.coach4.Size = new System.Drawing.Size(147, 36);
+            this.coach4.TabIndex = 0;
+            this.coach4.Text = "Coach # 4";
+            this.coach4.UseVisualStyleBackColor = false;
+            this.coach4.Click += new System.EventHandler(this.button36_Click);
             // 
-            // button35
+            // coach3
             // 
-            this.button35.BackColor = System.Drawing.Color.Green;
-            this.button35.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button35.ForeColor = System.Drawing.Color.White;
-            this.button35.Location = new System.Drawing.Point(376, 15);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(147, 36);
-            this.button35.TabIndex = 0;
-            this.button35.Text = "Coach # 3";
-            this.button35.UseVisualStyleBackColor = false;
-            this.button35.Click += new System.EventHandler(this.button35_Click);
+            this.coach3.BackColor = System.Drawing.Color.Green;
+            this.coach3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coach3.ForeColor = System.Drawing.Color.White;
+            this.coach3.Location = new System.Drawing.Point(376, 15);
+            this.coach3.Name = "coach3";
+            this.coach3.Size = new System.Drawing.Size(147, 36);
+            this.coach3.TabIndex = 0;
+            this.coach3.Text = "Coach # 3";
+            this.coach3.UseVisualStyleBackColor = false;
+            this.coach3.Click += new System.EventHandler(this.button35_Click);
             // 
-            // button34
+            // coach2
             // 
-            this.button34.BackColor = System.Drawing.Color.Green;
-            this.button34.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button34.ForeColor = System.Drawing.Color.White;
-            this.button34.Location = new System.Drawing.Point(209, 15);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(147, 36);
-            this.button34.TabIndex = 0;
-            this.button34.Text = "Coach # 2";
-            this.button34.UseVisualStyleBackColor = false;
-            this.button34.Click += new System.EventHandler(this.button34_Click);
+            this.coach2.BackColor = System.Drawing.Color.Green;
+            this.coach2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coach2.ForeColor = System.Drawing.Color.White;
+            this.coach2.Location = new System.Drawing.Point(209, 15);
+            this.coach2.Name = "coach2";
+            this.coach2.Size = new System.Drawing.Size(147, 36);
+            this.coach2.TabIndex = 0;
+            this.coach2.Text = "Coach # 2";
+            this.coach2.UseVisualStyleBackColor = false;
+            this.coach2.Click += new System.EventHandler(this.button34_Click);
             // 
-            // button33
+            // coach1
             // 
-            this.button33.BackColor = System.Drawing.Color.Green;
-            this.button33.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button33.ForeColor = System.Drawing.Color.White;
-            this.button33.Location = new System.Drawing.Point(39, 15);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(147, 36);
-            this.button33.TabIndex = 0;
-            this.button33.Text = "Coach # 1";
-            this.button33.UseVisualStyleBackColor = false;
-            this.button33.Click += new System.EventHandler(this.button33_Click);
+            this.coach1.BackColor = System.Drawing.Color.Green;
+            this.coach1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coach1.ForeColor = System.Drawing.Color.White;
+            this.coach1.Location = new System.Drawing.Point(39, 15);
+            this.coach1.Name = "coach1";
+            this.coach1.Size = new System.Drawing.Size(147, 36);
+            this.coach1.TabIndex = 0;
+            this.coach1.Text = "Coach # 1";
+            this.coach1.UseVisualStyleBackColor = false;
+            this.coach1.Click += new System.EventHandler(this.button33_Click);
             // 
             // button2
             // 
@@ -224,47 +234,48 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.button32);
-            this.panel2.Controls.Add(this.button31);
-            this.panel2.Controls.Add(this.button30);
-            this.panel2.Controls.Add(this.button29);
-            this.panel2.Controls.Add(this.button28);
-            this.panel2.Controls.Add(this.button27);
-            this.panel2.Controls.Add(this.button26);
+            this.panel2.Controls.Add(this.seat7);
+            this.panel2.Controls.Add(this.seat6);
+            this.panel2.Controls.Add(this.seat5);
+            this.panel2.Controls.Add(this.seat4);
+            this.panel2.Controls.Add(this.seat3);
+            this.panel2.Controls.Add(this.seat2);
+            this.panel2.Controls.Add(this.seat1);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.button14);
-            this.panel2.Controls.Add(this.button15);
-            this.panel2.Controls.Add(this.button16);
-            this.panel2.Controls.Add(this.button17);
-            this.panel2.Controls.Add(this.button18);
-            this.panel2.Controls.Add(this.button19);
-            this.panel2.Controls.Add(this.button20);
-            this.panel2.Controls.Add(this.button21);
-            this.panel2.Controls.Add(this.button22);
+            this.panel2.Controls.Add(this.berth24);
+            this.panel2.Controls.Add(this.berth23);
+            this.panel2.Controls.Add(this.berth22);
+            this.panel2.Controls.Add(this.berth21);
+            this.panel2.Controls.Add(this.berth20);
+            this.panel2.Controls.Add(this.berth19);
+            this.panel2.Controls.Add(this.berth18);
+            this.panel2.Controls.Add(this.berth17);
+            this.panel2.Controls.Add(this.berth16);
             this.panel2.Controls.Add(this.label14);
             this.panel2.Controls.Add(this.label15);
-            this.panel2.Controls.Add(this.button23);
-            this.panel2.Controls.Add(this.button24);
-            this.panel2.Controls.Add(this.button25);
+            this.panel2.Controls.Add(this.berth15);
+            this.panel2.Controls.Add(this.berth14);
+            this.panel2.Controls.Add(this.berth13);
             this.panel2.Controls.Add(this.label16);
             this.panel2.Controls.Add(this.label17);
-            this.panel2.Controls.Add(this.button8);
-            this.panel2.Controls.Add(this.button9);
-            this.panel2.Controls.Add(this.button10);
-            this.panel2.Controls.Add(this.button11);
-            this.panel2.Controls.Add(this.button12);
-            this.panel2.Controls.Add(this.button13);
-            this.panel2.Controls.Add(this.button5);
-            this.panel2.Controls.Add(this.button6);
-            this.panel2.Controls.Add(this.button7);
+            this.panel2.Controls.Add(this.berth12);
+            this.panel2.Controls.Add(this.berth11);
+            this.panel2.Controls.Add(this.berth10);
+            this.panel2.Controls.Add(this.berth9);
+            this.panel2.Controls.Add(this.berth8);
+            this.panel2.Controls.Add(this.berth7);
+            this.panel2.Controls.Add(this.berth6);
+            this.panel2.Controls.Add(this.berth5);
+            this.panel2.Controls.Add(this.berth4);
             this.panel2.Controls.Add(this.label12);
             this.panel2.Controls.Add(this.label13);
-            this.panel2.Controls.Add(this.button4);
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.berth3);
+            this.panel2.Controls.Add(this.berth2);
+            this.panel2.Controls.Add(this.berth1);
             this.panel2.Controls.Add(this.label11);
             this.panel2.Controls.Add(this.label10);
             this.panel2.Controls.Add(this.label2);
@@ -274,110 +285,153 @@
             this.panel2.TabIndex = 9;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // button32
+            // label5
             // 
-            this.button32.BackColor = System.Drawing.Color.Green;
-            this.button32.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button32.ForeColor = System.Drawing.Color.White;
-            this.button32.Image = ((System.Drawing.Image)(resources.GetObject("button32.Image")));
-            this.button32.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button32.Location = new System.Drawing.Point(733, 339);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(151, 75);
-            this.button32.TabIndex = 39;
-            this.button32.Text = "31               Rs. 1350";
-            this.button32.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button32.UseVisualStyleBackColor = false;
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Red;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(898, 475);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(122, 29);
+            this.label5.TabIndex = 42;
+            this.label5.Text = "BOOKED";
             // 
-            // button31
+            // label4
             // 
-            this.button31.BackColor = System.Drawing.Color.Green;
-            this.button31.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button31.ForeColor = System.Drawing.Color.White;
-            this.button31.Image = ((System.Drawing.Image)(resources.GetObject("button31.Image")));
-            this.button31.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button31.Location = new System.Drawing.Point(733, 258);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(151, 75);
-            this.button31.TabIndex = 39;
-            this.button31.Text = "30               Rs. 1350";
-            this.button31.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button31.UseVisualStyleBackColor = false;
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.RoyalBlue;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(1028, 475);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(148, 29);
+            this.label4.TabIndex = 41;
+            this.label4.Text = "SELECTED";
             // 
-            // button30
+            // label3
             // 
-            this.button30.BackColor = System.Drawing.Color.Green;
-            this.button30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button30.ForeColor = System.Drawing.Color.White;
-            this.button30.Image = ((System.Drawing.Image)(resources.GetObject("button30.Image")));
-            this.button30.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button30.Location = new System.Drawing.Point(733, 129);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(151, 75);
-            this.button30.TabIndex = 39;
-            this.button30.Text = "29               Rs. 1350";
-            this.button30.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button30.UseVisualStyleBackColor = false;
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Green;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(777, 475);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(115, 29);
+            this.label3.TabIndex = 40;
+            this.label3.Text = "VACANT";
             // 
-            // button29
+            // seat7
             // 
-            this.button29.BackColor = System.Drawing.Color.Green;
-            this.button29.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button29.ForeColor = System.Drawing.Color.White;
-            this.button29.Image = ((System.Drawing.Image)(resources.GetObject("button29.Image")));
-            this.button29.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button29.Location = new System.Drawing.Point(733, 48);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(151, 75);
-            this.button29.TabIndex = 39;
-            this.button29.Text = "28               Rs. 1350";
-            this.button29.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button29.UseVisualStyleBackColor = false;
+            this.seat7.BackColor = System.Drawing.Color.Green;
+            this.seat7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.seat7.ForeColor = System.Drawing.Color.White;
+            this.seat7.Image = ((System.Drawing.Image)(resources.GetObject("seat7.Image")));
+            this.seat7.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.seat7.Location = new System.Drawing.Point(733, 339);
+            this.seat7.Name = "seat7";
+            this.seat7.Size = new System.Drawing.Size(151, 75);
+            this.seat7.TabIndex = 39;
+            this.seat7.Text = "31               Rs. 1350";
+            this.seat7.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.seat7.UseVisualStyleBackColor = false;
+            this.seat7.Click += new System.EventHandler(this.button32_Click);
             // 
-            // button28
+            // seat6
             // 
-            this.button28.BackColor = System.Drawing.Color.Green;
-            this.button28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button28.ForeColor = System.Drawing.Color.White;
-            this.button28.Image = ((System.Drawing.Image)(resources.GetObject("button28.Image")));
-            this.button28.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button28.Location = new System.Drawing.Point(0, 339);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(151, 75);
-            this.button28.TabIndex = 38;
-            this.button28.Text = "27               Rs. 1350";
-            this.button28.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button28.UseVisualStyleBackColor = false;
+            this.seat6.BackColor = System.Drawing.Color.Green;
+            this.seat6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.seat6.ForeColor = System.Drawing.Color.White;
+            this.seat6.Image = ((System.Drawing.Image)(resources.GetObject("seat6.Image")));
+            this.seat6.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.seat6.Location = new System.Drawing.Point(733, 258);
+            this.seat6.Name = "seat6";
+            this.seat6.Size = new System.Drawing.Size(151, 75);
+            this.seat6.TabIndex = 39;
+            this.seat6.Text = "30               Rs. 1350";
+            this.seat6.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.seat6.UseVisualStyleBackColor = false;
+            this.seat6.Click += new System.EventHandler(this.button31_Click);
             // 
-            // button27
+            // seat5
             // 
-            this.button27.BackColor = System.Drawing.Color.Green;
-            this.button27.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button27.ForeColor = System.Drawing.Color.White;
-            this.button27.Image = ((System.Drawing.Image)(resources.GetObject("button27.Image")));
-            this.button27.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button27.Location = new System.Drawing.Point(3, 258);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(151, 75);
-            this.button27.TabIndex = 38;
-            this.button27.Text = "26               Rs. 1350";
-            this.button27.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button27.UseVisualStyleBackColor = false;
+            this.seat5.BackColor = System.Drawing.Color.Green;
+            this.seat5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.seat5.ForeColor = System.Drawing.Color.White;
+            this.seat5.Image = ((System.Drawing.Image)(resources.GetObject("seat5.Image")));
+            this.seat5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.seat5.Location = new System.Drawing.Point(733, 129);
+            this.seat5.Name = "seat5";
+            this.seat5.Size = new System.Drawing.Size(151, 75);
+            this.seat5.TabIndex = 39;
+            this.seat5.Text = "29               Rs. 1350";
+            this.seat5.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.seat5.UseVisualStyleBackColor = false;
+            this.seat5.Click += new System.EventHandler(this.button30_Click);
             // 
-            // button26
+            // seat4
             // 
-            this.button26.BackColor = System.Drawing.Color.Green;
-            this.button26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button26.ForeColor = System.Drawing.Color.White;
-            this.button26.Image = ((System.Drawing.Image)(resources.GetObject("button26.Image")));
-            this.button26.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button26.Location = new System.Drawing.Point(3, 129);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(151, 75);
-            this.button26.TabIndex = 37;
-            this.button26.Text = "25               Rs. 1350";
-            this.button26.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button26.UseVisualStyleBackColor = false;
+            this.seat4.BackColor = System.Drawing.Color.Green;
+            this.seat4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.seat4.ForeColor = System.Drawing.Color.White;
+            this.seat4.Image = ((System.Drawing.Image)(resources.GetObject("seat4.Image")));
+            this.seat4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.seat4.Location = new System.Drawing.Point(733, 48);
+            this.seat4.Name = "seat4";
+            this.seat4.Size = new System.Drawing.Size(151, 75);
+            this.seat4.TabIndex = 39;
+            this.seat4.Text = "28               Rs. 1350";
+            this.seat4.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.seat4.UseVisualStyleBackColor = false;
+            this.seat4.Click += new System.EventHandler(this.button29_Click);
+            // 
+            // seat3
+            // 
+            this.seat3.BackColor = System.Drawing.Color.Green;
+            this.seat3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.seat3.ForeColor = System.Drawing.Color.White;
+            this.seat3.Image = ((System.Drawing.Image)(resources.GetObject("seat3.Image")));
+            this.seat3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.seat3.Location = new System.Drawing.Point(0, 339);
+            this.seat3.Name = "seat3";
+            this.seat3.Size = new System.Drawing.Size(151, 75);
+            this.seat3.TabIndex = 38;
+            this.seat3.Text = "27               Rs. 1350";
+            this.seat3.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.seat3.UseVisualStyleBackColor = false;
+            this.seat3.Click += new System.EventHandler(this.button28_Click);
+            // 
+            // seat2
+            // 
+            this.seat2.BackColor = System.Drawing.Color.Green;
+            this.seat2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.seat2.ForeColor = System.Drawing.Color.White;
+            this.seat2.Image = ((System.Drawing.Image)(resources.GetObject("seat2.Image")));
+            this.seat2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.seat2.Location = new System.Drawing.Point(3, 258);
+            this.seat2.Name = "seat2";
+            this.seat2.Size = new System.Drawing.Size(151, 75);
+            this.seat2.TabIndex = 38;
+            this.seat2.Text = "26               Rs. 1350";
+            this.seat2.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.seat2.UseVisualStyleBackColor = false;
+            this.seat2.Click += new System.EventHandler(this.button27_Click);
+            // 
+            // seat1
+            // 
+            this.seat1.BackColor = System.Drawing.Color.Green;
+            this.seat1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.seat1.ForeColor = System.Drawing.Color.White;
+            this.seat1.Image = ((System.Drawing.Image)(resources.GetObject("seat1.Image")));
+            this.seat1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.seat1.Location = new System.Drawing.Point(3, 129);
+            this.seat1.Name = "seat1";
+            this.seat1.Size = new System.Drawing.Size(151, 75);
+            this.seat1.TabIndex = 37;
+            this.seat1.Text = "25               Rs. 1350";
+            this.seat1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.seat1.UseVisualStyleBackColor = false;
+            this.seat1.Click += new System.EventHandler(this.button26_Click);
             // 
             // label1
             // 
@@ -390,140 +444,149 @@
             this.label1.TabIndex = 36;
             this.label1.Text = "EXIT";
             // 
-            // button14
+            // berth24
             // 
-            this.button14.BackColor = System.Drawing.Color.Green;
-            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.ForeColor = System.Drawing.Color.White;
-            this.button14.Image = ((System.Drawing.Image)(resources.GetObject("button14.Image")));
-            this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button14.Location = new System.Drawing.Point(911, 339);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(159, 75);
-            this.button14.TabIndex = 35;
-            this.button14.Text = "24                  Rs. 1500";
-            this.button14.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button14.UseVisualStyleBackColor = false;
+            this.berth24.BackColor = System.Drawing.Color.Green;
+            this.berth24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth24.ForeColor = System.Drawing.Color.White;
+            this.berth24.Image = ((System.Drawing.Image)(resources.GetObject("berth24.Image")));
+            this.berth24.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.berth24.Location = new System.Drawing.Point(911, 339);
+            this.berth24.Name = "berth24";
+            this.berth24.Size = new System.Drawing.Size(159, 75);
+            this.berth24.TabIndex = 35;
+            this.berth24.Text = "24                  Rs. 1500";
+            this.berth24.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth24.UseVisualStyleBackColor = false;
+            this.berth24.Click += new System.EventHandler(this.button14_Click);
             // 
-            // button15
+            // berth23
             // 
-            this.button15.BackColor = System.Drawing.Color.Green;
-            this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.ForeColor = System.Drawing.Color.White;
-            this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
-            this.button15.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button15.Location = new System.Drawing.Point(1078, 339);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(159, 75);
-            this.button15.TabIndex = 34;
-            this.button15.Text = "23                  Rs. 1500";
-            this.button15.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button15.UseVisualStyleBackColor = false;
+            this.berth23.BackColor = System.Drawing.Color.Green;
+            this.berth23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth23.ForeColor = System.Drawing.Color.White;
+            this.berth23.Image = ((System.Drawing.Image)(resources.GetObject("berth23.Image")));
+            this.berth23.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.berth23.Location = new System.Drawing.Point(1078, 339);
+            this.berth23.Name = "berth23";
+            this.berth23.Size = new System.Drawing.Size(159, 75);
+            this.berth23.TabIndex = 34;
+            this.berth23.Text = "23                  Rs. 1500";
+            this.berth23.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth23.UseVisualStyleBackColor = false;
+            this.berth23.Click += new System.EventHandler(this.button15_Click);
             // 
-            // button16
+            // berth22
             // 
-            this.button16.BackColor = System.Drawing.Color.Green;
-            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.ForeColor = System.Drawing.Color.White;
-            this.button16.Image = ((System.Drawing.Image)(resources.GetObject("button16.Image")));
-            this.button16.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.button16.Location = new System.Drawing.Point(1245, 339);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(161, 75);
-            this.button16.TabIndex = 33;
-            this.button16.Text = "22                  Rs. 1500";
-            this.button16.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button16.UseVisualStyleBackColor = false;
+            this.berth22.BackColor = System.Drawing.Color.Green;
+            this.berth22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth22.ForeColor = System.Drawing.Color.White;
+            this.berth22.Image = ((System.Drawing.Image)(resources.GetObject("berth22.Image")));
+            this.berth22.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.berth22.Location = new System.Drawing.Point(1245, 339);
+            this.berth22.Name = "berth22";
+            this.berth22.Size = new System.Drawing.Size(161, 75);
+            this.berth22.TabIndex = 33;
+            this.berth22.Text = "22                  Rs. 1500";
+            this.berth22.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth22.UseVisualStyleBackColor = false;
+            this.berth22.Click += new System.EventHandler(this.button16_Click);
             // 
-            // button17
+            // berth21
             // 
-            this.button17.BackColor = System.Drawing.Color.Green;
-            this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button17.ForeColor = System.Drawing.Color.White;
-            this.button17.Image = ((System.Drawing.Image)(resources.GetObject("button17.Image")));
-            this.button17.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button17.Location = new System.Drawing.Point(911, 258);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(159, 75);
-            this.button17.TabIndex = 32;
-            this.button17.Text = "21                  Rs. 1500";
-            this.button17.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button17.UseVisualStyleBackColor = false;
+            this.berth21.BackColor = System.Drawing.Color.Green;
+            this.berth21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth21.ForeColor = System.Drawing.Color.White;
+            this.berth21.Image = ((System.Drawing.Image)(resources.GetObject("berth21.Image")));
+            this.berth21.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.berth21.Location = new System.Drawing.Point(911, 258);
+            this.berth21.Name = "berth21";
+            this.berth21.Size = new System.Drawing.Size(159, 75);
+            this.berth21.TabIndex = 32;
+            this.berth21.Text = "21                  Rs. 1500";
+            this.berth21.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth21.UseVisualStyleBackColor = false;
+            this.berth21.Click += new System.EventHandler(this.button17_Click);
             // 
-            // button18
+            // berth20
             // 
-            this.button18.BackColor = System.Drawing.Color.Green;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.Color.White;
-            this.button18.Image = ((System.Drawing.Image)(resources.GetObject("button18.Image")));
-            this.button18.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button18.Location = new System.Drawing.Point(1078, 258);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(159, 75);
-            this.button18.TabIndex = 31;
-            this.button18.Text = "20                  Rs. 1500";
-            this.button18.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button18.UseVisualStyleBackColor = false;
+            this.berth20.BackColor = System.Drawing.Color.Green;
+            this.berth20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth20.ForeColor = System.Drawing.Color.White;
+            this.berth20.Image = ((System.Drawing.Image)(resources.GetObject("berth20.Image")));
+            this.berth20.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.berth20.Location = new System.Drawing.Point(1078, 258);
+            this.berth20.Name = "berth20";
+            this.berth20.Size = new System.Drawing.Size(159, 75);
+            this.berth20.TabIndex = 31;
+            this.berth20.Text = "20                  Rs. 1500";
+            this.berth20.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth20.UseVisualStyleBackColor = false;
+            this.berth20.Click += new System.EventHandler(this.button18_Click);
             // 
-            // button19
+            // berth19
             // 
-            this.button19.BackColor = System.Drawing.Color.Green;
-            this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button19.ForeColor = System.Drawing.Color.White;
-            this.button19.Image = ((System.Drawing.Image)(resources.GetObject("button19.Image")));
-            this.button19.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.button19.Location = new System.Drawing.Point(1245, 258);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(161, 75);
-            this.button19.TabIndex = 30;
-            this.button19.Text = "19                  Rs. 1500";
-            this.button19.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button19.UseVisualStyleBackColor = false;
+            this.berth19.BackColor = System.Drawing.Color.Green;
+            this.berth19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth19.ForeColor = System.Drawing.Color.White;
+            this.berth19.Image = ((System.Drawing.Image)(resources.GetObject("berth19.Image")));
+            this.berth19.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.berth19.Location = new System.Drawing.Point(1245, 258);
+            this.berth19.Name = "berth19";
+            this.berth19.Size = new System.Drawing.Size(161, 75);
+            this.berth19.TabIndex = 30;
+            this.berth19.Text = "19                  Rs. 1500";
+            this.berth19.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth19.UseVisualStyleBackColor = false;
+            this.berth19.Click += new System.EventHandler(this.button19_Click);
             // 
-            // button20
+            // berth18
             // 
-            this.button20.BackColor = System.Drawing.Color.Green;
-            this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button20.ForeColor = System.Drawing.Color.White;
-            this.button20.Image = ((System.Drawing.Image)(resources.GetObject("button20.Image")));
-            this.button20.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button20.Location = new System.Drawing.Point(911, 129);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(159, 75);
-            this.button20.TabIndex = 29;
-            this.button20.Text = "18                  Rs. 1500";
-            this.button20.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button20.UseVisualStyleBackColor = false;
+            this.berth18.BackColor = System.Drawing.Color.Green;
+            this.berth18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth18.ForeColor = System.Drawing.Color.White;
+            this.berth18.Image = ((System.Drawing.Image)(resources.GetObject("berth18.Image")));
+            this.berth18.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.berth18.Location = new System.Drawing.Point(911, 129);
+            this.berth18.Name = "berth18";
+            this.berth18.Size = new System.Drawing.Size(159, 75);
+            this.berth18.TabIndex = 29;
+            this.berth18.Text = "18                  Rs. 1500";
+            this.berth18.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth18.UseVisualStyleBackColor = false;
+            this.berth18.Click += new System.EventHandler(this.button20_Click);
             // 
-            // button21
+            // berth17
             // 
-            this.button21.BackColor = System.Drawing.Color.Green;
-            this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button21.ForeColor = System.Drawing.Color.White;
-            this.button21.Image = ((System.Drawing.Image)(resources.GetObject("button21.Image")));
-            this.button21.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button21.Location = new System.Drawing.Point(1078, 129);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(159, 75);
-            this.button21.TabIndex = 28;
-            this.button21.Text = "17                  Rs. 1500";
-            this.button21.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button21.UseVisualStyleBackColor = false;
+            this.berth17.BackColor = System.Drawing.Color.Green;
+            this.berth17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth17.ForeColor = System.Drawing.Color.White;
+            this.berth17.Image = ((System.Drawing.Image)(resources.GetObject("berth17.Image")));
+            this.berth17.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.berth17.Location = new System.Drawing.Point(1078, 129);
+            this.berth17.Name = "berth17";
+            this.berth17.Size = new System.Drawing.Size(159, 75);
+            this.berth17.TabIndex = 28;
+            this.berth17.Text = "17                  Rs. 1500";
+            this.berth17.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth17.UseVisualStyleBackColor = false;
+            this.berth17.Click += new System.EventHandler(this.button21_Click);
             // 
-            // button22
+            // berth16
             // 
-            this.button22.BackColor = System.Drawing.Color.Green;
-            this.button22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button22.ForeColor = System.Drawing.Color.White;
-            this.button22.Image = ((System.Drawing.Image)(resources.GetObject("button22.Image")));
-            this.button22.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.button22.Location = new System.Drawing.Point(1245, 129);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(161, 75);
-            this.button22.TabIndex = 27;
-            this.button22.Text = "16                  Rs. 1500";
-            this.button22.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button22.UseVisualStyleBackColor = false;
+            this.berth16.BackColor = System.Drawing.Color.Green;
+            this.berth16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth16.ForeColor = System.Drawing.Color.White;
+            this.berth16.Image = ((System.Drawing.Image)(resources.GetObject("berth16.Image")));
+            this.berth16.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.berth16.Location = new System.Drawing.Point(1245, 129);
+            this.berth16.Name = "berth16";
+            this.berth16.Size = new System.Drawing.Size(161, 75);
+            this.berth16.TabIndex = 27;
+            this.berth16.Text = "16                  Rs. 1500";
+            this.berth16.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth16.UseVisualStyleBackColor = false;
+            this.berth16.Click += new System.EventHandler(this.button22_Click);
             // 
             // label14
             // 
@@ -548,50 +611,53 @@
             this.label15.TabIndex = 25;
             this.label15.Text = "CABIN";
             // 
-            // button23
+            // berth15
             // 
-            this.button23.BackColor = System.Drawing.Color.Green;
-            this.button23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button23.ForeColor = System.Drawing.Color.White;
-            this.button23.Image = ((System.Drawing.Image)(resources.GetObject("button23.Image")));
-            this.button23.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button23.Location = new System.Drawing.Point(911, 48);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(159, 75);
-            this.button23.TabIndex = 24;
-            this.button23.Text = "15                  Rs. 1500";
-            this.button23.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button23.UseVisualStyleBackColor = false;
+            this.berth15.BackColor = System.Drawing.Color.Green;
+            this.berth15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth15.ForeColor = System.Drawing.Color.White;
+            this.berth15.Image = ((System.Drawing.Image)(resources.GetObject("berth15.Image")));
+            this.berth15.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.berth15.Location = new System.Drawing.Point(911, 48);
+            this.berth15.Name = "berth15";
+            this.berth15.Size = new System.Drawing.Size(159, 75);
+            this.berth15.TabIndex = 24;
+            this.berth15.Text = "15                  Rs. 1500";
+            this.berth15.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth15.UseVisualStyleBackColor = false;
+            this.berth15.Click += new System.EventHandler(this.button23_Click);
             // 
-            // button24
+            // berth14
             // 
-            this.button24.BackColor = System.Drawing.Color.Green;
-            this.button24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button24.ForeColor = System.Drawing.Color.White;
-            this.button24.Image = ((System.Drawing.Image)(resources.GetObject("button24.Image")));
-            this.button24.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button24.Location = new System.Drawing.Point(1078, 48);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(159, 75);
-            this.button24.TabIndex = 23;
-            this.button24.Text = "14                  Rs. 1500";
-            this.button24.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button24.UseVisualStyleBackColor = false;
+            this.berth14.BackColor = System.Drawing.Color.Green;
+            this.berth14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth14.ForeColor = System.Drawing.Color.White;
+            this.berth14.Image = ((System.Drawing.Image)(resources.GetObject("berth14.Image")));
+            this.berth14.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.berth14.Location = new System.Drawing.Point(1078, 48);
+            this.berth14.Name = "berth14";
+            this.berth14.Size = new System.Drawing.Size(159, 75);
+            this.berth14.TabIndex = 23;
+            this.berth14.Text = "14                  Rs. 1500";
+            this.berth14.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth14.UseVisualStyleBackColor = false;
+            this.berth14.Click += new System.EventHandler(this.button24_Click);
             // 
-            // button25
+            // berth13
             // 
-            this.button25.BackColor = System.Drawing.Color.Green;
-            this.button25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button25.ForeColor = System.Drawing.Color.White;
-            this.button25.Image = ((System.Drawing.Image)(resources.GetObject("button25.Image")));
-            this.button25.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.button25.Location = new System.Drawing.Point(1245, 48);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(161, 75);
-            this.button25.TabIndex = 22;
-            this.button25.Text = "13                  Rs. 1500";
-            this.button25.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button25.UseVisualStyleBackColor = false;
+            this.berth13.BackColor = System.Drawing.Color.Green;
+            this.berth13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth13.ForeColor = System.Drawing.Color.White;
+            this.berth13.Image = ((System.Drawing.Image)(resources.GetObject("berth13.Image")));
+            this.berth13.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.berth13.Location = new System.Drawing.Point(1245, 48);
+            this.berth13.Name = "berth13";
+            this.berth13.Size = new System.Drawing.Size(161, 75);
+            this.berth13.TabIndex = 22;
+            this.berth13.Text = "13                  Rs. 1500";
+            this.berth13.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth13.UseVisualStyleBackColor = false;
+            this.berth13.Click += new System.EventHandler(this.button25_Click);
             // 
             // label16
             // 
@@ -616,140 +682,149 @@
             this.label17.TabIndex = 20;
             this.label17.Text = "CABIN";
             // 
-            // button8
+            // berth12
             // 
-            this.button8.BackColor = System.Drawing.Color.Green;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button8.Location = new System.Drawing.Point(182, 339);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(159, 75);
-            this.button8.TabIndex = 19;
-            this.button8.Text = "12                  Rs. 1500";
-            this.button8.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button8.UseVisualStyleBackColor = false;
+            this.berth12.BackColor = System.Drawing.Color.Green;
+            this.berth12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth12.ForeColor = System.Drawing.Color.White;
+            this.berth12.Image = ((System.Drawing.Image)(resources.GetObject("berth12.Image")));
+            this.berth12.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.berth12.Location = new System.Drawing.Point(182, 339);
+            this.berth12.Name = "berth12";
+            this.berth12.Size = new System.Drawing.Size(159, 75);
+            this.berth12.TabIndex = 19;
+            this.berth12.Text = "12                  Rs. 1500";
+            this.berth12.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth12.UseVisualStyleBackColor = false;
+            this.berth12.Click += new System.EventHandler(this.button8_Click);
             // 
-            // button9
+            // berth11
             // 
-            this.button9.BackColor = System.Drawing.Color.Green;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button9.Location = new System.Drawing.Point(349, 339);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(159, 75);
-            this.button9.TabIndex = 18;
-            this.button9.Text = "11                  Rs. 1500";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button9.UseVisualStyleBackColor = false;
+            this.berth11.BackColor = System.Drawing.Color.Green;
+            this.berth11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth11.ForeColor = System.Drawing.Color.White;
+            this.berth11.Image = ((System.Drawing.Image)(resources.GetObject("berth11.Image")));
+            this.berth11.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.berth11.Location = new System.Drawing.Point(349, 339);
+            this.berth11.Name = "berth11";
+            this.berth11.Size = new System.Drawing.Size(159, 75);
+            this.berth11.TabIndex = 18;
+            this.berth11.Text = "11                  Rs. 1500";
+            this.berth11.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth11.UseVisualStyleBackColor = false;
+            this.berth11.Click += new System.EventHandler(this.button9_Click);
             // 
-            // button10
+            // berth10
             // 
-            this.button10.BackColor = System.Drawing.Color.Green;
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Image = ((System.Drawing.Image)(resources.GetObject("button10.Image")));
-            this.button10.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.button10.Location = new System.Drawing.Point(516, 339);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(161, 75);
-            this.button10.TabIndex = 17;
-            this.button10.Text = "10                  Rs. 1500";
-            this.button10.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button10.UseVisualStyleBackColor = false;
+            this.berth10.BackColor = System.Drawing.Color.Green;
+            this.berth10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth10.ForeColor = System.Drawing.Color.White;
+            this.berth10.Image = ((System.Drawing.Image)(resources.GetObject("berth10.Image")));
+            this.berth10.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.berth10.Location = new System.Drawing.Point(516, 339);
+            this.berth10.Name = "berth10";
+            this.berth10.Size = new System.Drawing.Size(161, 75);
+            this.berth10.TabIndex = 17;
+            this.berth10.Text = "10                  Rs. 1500";
+            this.berth10.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth10.UseVisualStyleBackColor = false;
+            this.berth10.Click += new System.EventHandler(this.button10_Click);
             // 
-            // button11
+            // berth9
             // 
-            this.button11.BackColor = System.Drawing.Color.Green;
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
-            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button11.Location = new System.Drawing.Point(182, 258);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(159, 75);
-            this.button11.TabIndex = 16;
-            this.button11.Text = "09                  Rs. 1500";
-            this.button11.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button11.UseVisualStyleBackColor = false;
+            this.berth9.BackColor = System.Drawing.Color.Green;
+            this.berth9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth9.ForeColor = System.Drawing.Color.White;
+            this.berth9.Image = ((System.Drawing.Image)(resources.GetObject("berth9.Image")));
+            this.berth9.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.berth9.Location = new System.Drawing.Point(182, 258);
+            this.berth9.Name = "berth9";
+            this.berth9.Size = new System.Drawing.Size(159, 75);
+            this.berth9.TabIndex = 16;
+            this.berth9.Text = "09                  Rs. 1500";
+            this.berth9.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth9.UseVisualStyleBackColor = false;
+            this.berth9.Click += new System.EventHandler(this.button11_Click);
             // 
-            // button12
+            // berth8
             // 
-            this.button12.BackColor = System.Drawing.Color.Green;
-            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Image = ((System.Drawing.Image)(resources.GetObject("button12.Image")));
-            this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button12.Location = new System.Drawing.Point(349, 258);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(159, 75);
-            this.button12.TabIndex = 15;
-            this.button12.Text = "08                  Rs. 1500";
-            this.button12.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button12.UseVisualStyleBackColor = false;
+            this.berth8.BackColor = System.Drawing.Color.Green;
+            this.berth8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth8.ForeColor = System.Drawing.Color.White;
+            this.berth8.Image = ((System.Drawing.Image)(resources.GetObject("berth8.Image")));
+            this.berth8.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.berth8.Location = new System.Drawing.Point(349, 258);
+            this.berth8.Name = "berth8";
+            this.berth8.Size = new System.Drawing.Size(159, 75);
+            this.berth8.TabIndex = 15;
+            this.berth8.Text = "08                  Rs. 1500";
+            this.berth8.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth8.UseVisualStyleBackColor = false;
+            this.berth8.Click += new System.EventHandler(this.button12_Click);
             // 
-            // button13
+            // berth7
             // 
-            this.button13.BackColor = System.Drawing.Color.Green;
-            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Image = ((System.Drawing.Image)(resources.GetObject("button13.Image")));
-            this.button13.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.button13.Location = new System.Drawing.Point(516, 258);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(161, 75);
-            this.button13.TabIndex = 14;
-            this.button13.Text = "07                  Rs. 1500";
-            this.button13.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button13.UseVisualStyleBackColor = false;
+            this.berth7.BackColor = System.Drawing.Color.Green;
+            this.berth7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth7.ForeColor = System.Drawing.Color.White;
+            this.berth7.Image = ((System.Drawing.Image)(resources.GetObject("berth7.Image")));
+            this.berth7.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.berth7.Location = new System.Drawing.Point(516, 258);
+            this.berth7.Name = "berth7";
+            this.berth7.Size = new System.Drawing.Size(161, 75);
+            this.berth7.TabIndex = 14;
+            this.berth7.Text = "07                  Rs. 1500";
+            this.berth7.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth7.UseVisualStyleBackColor = false;
+            this.berth7.Click += new System.EventHandler(this.button13_Click);
             // 
-            // button5
+            // berth6
             // 
-            this.button5.BackColor = System.Drawing.Color.Green;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button5.Location = new System.Drawing.Point(182, 129);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(159, 75);
-            this.button5.TabIndex = 13;
-            this.button5.Text = "06                  Rs. 1500";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button5.UseVisualStyleBackColor = false;
+            this.berth6.BackColor = System.Drawing.Color.Green;
+            this.berth6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth6.ForeColor = System.Drawing.Color.White;
+            this.berth6.Image = ((System.Drawing.Image)(resources.GetObject("berth6.Image")));
+            this.berth6.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.berth6.Location = new System.Drawing.Point(182, 129);
+            this.berth6.Name = "berth6";
+            this.berth6.Size = new System.Drawing.Size(159, 75);
+            this.berth6.TabIndex = 13;
+            this.berth6.Text = "06                  Rs. 1500";
+            this.berth6.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth6.UseVisualStyleBackColor = false;
+            this.berth6.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button6
+            // berth5
             // 
-            this.button6.BackColor = System.Drawing.Color.Green;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button6.Location = new System.Drawing.Point(349, 129);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(159, 75);
-            this.button6.TabIndex = 12;
-            this.button6.Text = "05                  Rs. 1500";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button6.UseVisualStyleBackColor = false;
+            this.berth5.BackColor = System.Drawing.Color.Green;
+            this.berth5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth5.ForeColor = System.Drawing.Color.White;
+            this.berth5.Image = ((System.Drawing.Image)(resources.GetObject("berth5.Image")));
+            this.berth5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.berth5.Location = new System.Drawing.Point(349, 129);
+            this.berth5.Name = "berth5";
+            this.berth5.Size = new System.Drawing.Size(159, 75);
+            this.berth5.TabIndex = 12;
+            this.berth5.Text = "05                  Rs. 1500";
+            this.berth5.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth5.UseVisualStyleBackColor = false;
+            this.berth5.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button7
+            // berth4
             // 
-            this.button7.BackColor = System.Drawing.Color.Green;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.button7.Location = new System.Drawing.Point(516, 129);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(161, 75);
-            this.button7.TabIndex = 11;
-            this.button7.Text = "04                 Rs. 1500";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button7.UseVisualStyleBackColor = false;
+            this.berth4.BackColor = System.Drawing.Color.Green;
+            this.berth4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth4.ForeColor = System.Drawing.Color.White;
+            this.berth4.Image = ((System.Drawing.Image)(resources.GetObject("berth4.Image")));
+            this.berth4.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.berth4.Location = new System.Drawing.Point(516, 129);
+            this.berth4.Name = "berth4";
+            this.berth4.Size = new System.Drawing.Size(161, 75);
+            this.berth4.TabIndex = 11;
+            this.berth4.Text = "04                 Rs. 1500";
+            this.berth4.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth4.UseVisualStyleBackColor = false;
+            this.berth4.Click += new System.EventHandler(this.button7_Click);
             // 
             // label12
             // 
@@ -774,50 +849,53 @@
             this.label13.TabIndex = 9;
             this.label13.Text = "CABIN";
             // 
-            // button4
+            // berth3
             // 
-            this.button4.BackColor = System.Drawing.Color.Green;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.Location = new System.Drawing.Point(182, 48);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(159, 75);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "03                  Rs. 1500";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button4.UseVisualStyleBackColor = false;
+            this.berth3.BackColor = System.Drawing.Color.Green;
+            this.berth3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth3.ForeColor = System.Drawing.Color.White;
+            this.berth3.Image = ((System.Drawing.Image)(resources.GetObject("berth3.Image")));
+            this.berth3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.berth3.Location = new System.Drawing.Point(182, 48);
+            this.berth3.Name = "berth3";
+            this.berth3.Size = new System.Drawing.Size(159, 75);
+            this.berth3.TabIndex = 5;
+            this.berth3.Text = "03                  Rs. 1500";
+            this.berth3.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth3.UseVisualStyleBackColor = false;
+            this.berth3.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button3
+            // berth2
             // 
-            this.button3.BackColor = System.Drawing.Color.Green;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.Location = new System.Drawing.Point(349, 48);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(159, 75);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "02                  Rs. 1500";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button3.UseVisualStyleBackColor = false;
+            this.berth2.BackColor = System.Drawing.Color.Green;
+            this.berth2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth2.ForeColor = System.Drawing.Color.White;
+            this.berth2.Image = ((System.Drawing.Image)(resources.GetObject("berth2.Image")));
+            this.berth2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.berth2.Location = new System.Drawing.Point(349, 48);
+            this.berth2.Name = "berth2";
+            this.berth2.Size = new System.Drawing.Size(159, 75);
+            this.berth2.TabIndex = 4;
+            this.berth2.Text = "02                  Rs. 1500";
+            this.berth2.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth2.UseVisualStyleBackColor = false;
+            this.berth2.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button1
+            // berth1
             // 
-            this.button1.BackColor = System.Drawing.Color.Green;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.button1.Location = new System.Drawing.Point(516, 48);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(161, 75);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "01                  Rs. 1500";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button1.UseVisualStyleBackColor = false;
+            this.berth1.BackColor = System.Drawing.Color.Green;
+            this.berth1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.berth1.ForeColor = System.Drawing.Color.White;
+            this.berth1.Image = ((System.Drawing.Image)(resources.GetObject("berth1.Image")));
+            this.berth1.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.berth1.Location = new System.Drawing.Point(516, 48);
+            this.berth1.Name = "berth1";
+            this.berth1.Size = new System.Drawing.Size(161, 75);
+            this.berth1.TabIndex = 3;
+            this.berth1.Text = "01                  Rs. 1500";
+            this.berth1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.berth1.UseVisualStyleBackColor = false;
+            this.berth1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label11
             // 
@@ -853,41 +931,118 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "ENTRANCE";
             // 
-            // label3
+            // panel3
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Green;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(777, 475);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(115, 29);
-            this.label3.TabIndex = 40;
-            this.label3.Text = "VACANT";
+            this.panel3.Controls.Add(this.button1);
+            this.panel3.Controls.Add(this.button25);
+            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.Bseat_price);
+            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.label8);
+            this.panel3.Controls.Add(this.label6);
+            this.panel3.Location = new System.Drawing.Point(349, 71);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(727, 377);
+            this.panel3.TabIndex = 43;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
-            // label4
+            // button25
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Blue;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(1028, 475);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(148, 29);
-            this.label4.TabIndex = 41;
-            this.label4.Text = "SELECTED";
+            this.button25.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button25.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button25.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button25.Location = new System.Drawing.Point(147, 265);
+            this.button25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(408, 46);
+            this.button25.TabIndex = 10;
+            this.button25.Text = "Checkout";
+            this.button25.UseVisualStyleBackColor = false;
+            this.button25.Click += new System.EventHandler(this.button25_Click_1);
             // 
-            // label5
+            // label9
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Red;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(898, 475);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(122, 29);
-            this.label5.TabIndex = 42;
-            this.label5.Text = "BOOKED";
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label9.Location = new System.Drawing.Point(485, 193);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(60, 21);
+            this.label9.TabIndex = 9;
+            this.label9.Text = "label9";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label9.Click += new System.EventHandler(this.label9_Click);
+            // 
+            // Bseat_price
+            // 
+            this.Bseat_price.AutoSize = true;
+            this.Bseat_price.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bseat_price.Location = new System.Drawing.Point(483, 137);
+            this.Bseat_price.Name = "Bseat_price";
+            this.Bseat_price.Size = new System.Drawing.Size(69, 21);
+            this.Bseat_price.TabIndex = 8;
+            this.Bseat_price.Text = "label10";
+            this.Bseat_price.Click += new System.EventHandler(this.Bseat_price_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(143, 193);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(204, 22);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "Your Booked seat no:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(143, 136);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(138, 22);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "Total Amount:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(273, 23);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(166, 32);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Fare Details";
+            // 
+            // bookme
+            // 
+            this.bookme.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.bookme.FlatAppearance.BorderSize = 0;
+            this.bookme.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bookme.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bookme.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.bookme.Location = new System.Drawing.Point(491, 707);
+            this.bookme.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bookme.Name = "bookme";
+            this.bookme.Size = new System.Drawing.Size(461, 55);
+            this.bookme.TabIndex = 43;
+            this.bookme.Text = "BOOKME";
+            this.bookme.UseVisualStyleBackColor = false;
+            this.bookme.Click += new System.EventHandler(this.button41_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.button1.Location = new System.Drawing.Point(655, 16);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(47, 39);
+            this.button1.TabIndex = 11;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // TrainCompartments
             // 
@@ -895,15 +1050,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1462, 773);
+            this.Controls.Add(this.bookme);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TrainCompartments";
             this.Text = "TrainCompartments";
+            this.Load += new System.EventHandler(this.TrainCompartment_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -913,57 +1072,66 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button berth3;
+        private System.Windows.Forms.Button berth2;
+        private System.Windows.Forms.Button berth1;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button berth24;
+        private System.Windows.Forms.Button berth23;
+        private System.Windows.Forms.Button berth22;
+        private System.Windows.Forms.Button berth21;
+        private System.Windows.Forms.Button berth20;
+        private System.Windows.Forms.Button berth19;
+        private System.Windows.Forms.Button berth18;
+        private System.Windows.Forms.Button berth17;
+        private System.Windows.Forms.Button berth16;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button berth15;
+        private System.Windows.Forms.Button berth14;
+        private System.Windows.Forms.Button berth13;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button berth12;
+        private System.Windows.Forms.Button berth11;
+        private System.Windows.Forms.Button berth10;
+        private System.Windows.Forms.Button berth9;
+        private System.Windows.Forms.Button berth8;
+        private System.Windows.Forms.Button berth7;
+        private System.Windows.Forms.Button berth6;
+        private System.Windows.Forms.Button berth5;
+        private System.Windows.Forms.Button berth4;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.Button seat1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button30;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button40;
-        private System.Windows.Forms.Button button39;
-        private System.Windows.Forms.Button button38;
-        private System.Windows.Forms.Button button37;
-        private System.Windows.Forms.Button button36;
-        private System.Windows.Forms.Button button35;
-        private System.Windows.Forms.Button button34;
+        private System.Windows.Forms.Button seat7;
+        private System.Windows.Forms.Button seat6;
+        private System.Windows.Forms.Button seat5;
+        private System.Windows.Forms.Button seat4;
+        private System.Windows.Forms.Button seat3;
+        private System.Windows.Forms.Button seat2;
+        private System.Windows.Forms.Button coach1;
+        private System.Windows.Forms.Button coach8;
+        private System.Windows.Forms.Button coach7;
+        private System.Windows.Forms.Button coach6;
+        private System.Windows.Forms.Button coach5;
+        private System.Windows.Forms.Button coach4;
+        private System.Windows.Forms.Button coach3;
+        private System.Windows.Forms.Button coach2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button bookme;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label Bseat_price;
+        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button button1;
     }
 }
