@@ -13,12 +13,15 @@ namespace HomeScreen
 {
     public partial class Train : Form
     {
+
         public Train()
         {
             InitializeComponent();
         }
+
         private void Form_Load(object sender, EventArgs e)
         {
+
             string connectionString = "Data Source=(localdb)\\bookmedatabase;Initial Catalog=BOOKMEDATABASE;Integrated Security=True";
 
             // SQL query to retrieve data from the database
@@ -69,6 +72,10 @@ namespace HomeScreen
             else
             {
                 TrainCompartments tc = new TrainCompartments();
+                tc.DepartureStation = comboBox1.Text;
+                tc.ArrivalStation = comboBox2.Text;
+                tc.bookingDate = dateTimePicker1.Value;
+            
                 tc.Show();
                 this.Hide();
             }

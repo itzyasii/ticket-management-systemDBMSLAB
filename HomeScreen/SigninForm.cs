@@ -86,8 +86,11 @@ namespace HomeScreen
                         if (result > 0)
                         {
                             mainpage m1 = new mainpage();
+                            TrainCompartments tc = new TrainCompartments();
+
                             m1.Show();
                             m1.Settextfromlabel(username);
+                            tc.passengerName = username;
                             this.Hide();
 
                         }

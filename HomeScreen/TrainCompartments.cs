@@ -13,6 +13,12 @@ namespace HomeScreen
 {
     public partial class TrainCompartments : Form
     {
+        public string DepartureStation { get; set; }
+        public string ArrivalStation { get; set; }
+        public string passengerName { get; set; }
+
+        public DateTime bookingDate { get; set; }
+
         int price;
         static int[] bookedSeat;
         static int[] tempBookedSeat;
@@ -481,6 +487,7 @@ namespace HomeScreen
         {
             mainpage m1 = new mainpage();
             m1.Show();
+            this.Hide();
         }
 
         private void label1_Click_1(object sender, EventArgs e)
@@ -1124,7 +1131,7 @@ namespace HomeScreen
         {
 
         }
-
+        int seatNoBooked;
         private void button25_Click_1(object sender, EventArgs e)
         {
 
@@ -1135,6 +1142,7 @@ namespace HomeScreen
                 {
                     string mycon = "Data Source = (localdb)\\bookmedatabase; Initial Catalog = BOOKMEDATABASE; Integrated Security = True";
                     string updatedata = "update berthStatus set status='B' where [berthNo] =" + (i + 1);
+                    seatNoBooked = (i + 1);
                     SqlConnection con = new SqlConnection(mycon);
                     con.Open();
                     SqlCommand cmd = new SqlCommand();
@@ -1149,6 +1157,48 @@ namespace HomeScreen
             messagebox m = new messagebox();
             m.ShowDialog();
             this.Refresh();
+            string t_Status = "confirmed";
+            string p_Status = "Paid";
+
+            int id = GenerateUniqueId();
+
+            string insertTicketData = "insert into trainTicketBooking(ticketID, passengerName, departreStatiom, arrivalStation, " +
+                "seatNumber, fare, bookingDate, ticketStatus, paymentStatus) VALUES (@id, @p_name, @d_station, @a_station, @s_num, @fare, @b_date, @t_status, @p_status) ";
+
+           using( SqlConnection Booking_connection = new SqlConnection("Data Source = (localdb)\\bookmedatabase; Initial Catalog = BOOKMEDATABASE; Integrated Security = True"))
+            {
+
+                Booking_connection.Open();
+                using ( SqlCommand command = Booking_connection.CreateCommand())
+                {
+                    command.CommandText = insertTicketData;
+                    command.Parameters.AddWithValue("@id", id);
+                    // Check if passengerName is not empty before adding it as a parameter value
+                    if (!string.IsNullOrEmpty(passengerName))
+                    {
+                        command.Parameters.AddWithValue("@p_name", passengerName);
+                    }
+                    else
+                    {
+                        // If passengerName is empty, you can either provide a default value or handle it accordingly
+                        // For example, you can set it as DBNull.Value or throw an exception
+                        command.Parameters.AddWithValue("@p_name", DBNull.Value);
+                        // throw new Exception("Passenger name is required."); // Example of throwing an exception
+                    }
+
+                    command.Parameters.AddWithValue("@d_station", DepartureStation);
+                    command.Parameters.AddWithValue("@a_station", ArrivalStation);
+                    command.Parameters.AddWithValue("@s_num", seatNoBooked);
+                    command.Parameters.AddWithValue("@fare", price);
+                    command.Parameters.AddWithValue("@b_date", bookingDate);
+                    command.Parameters.AddWithValue("@t_status", t_Status);
+                    command.Parameters.AddWithValue("@p_status", p_Status);
+                    command.ExecuteNonQuery();
+
+                }
+            }
+
+
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -1159,7 +1209,12 @@ namespace HomeScreen
             this.Refresh();
 
         }
+        private static int GenerateUniqueId()
+        {
+            // Generate a unique ID based on the current timestamp (you can modify this according to your requirements)
+            return (int)DateTime.Now.Ticks;
+        }
 
-    
+
     }
 }
