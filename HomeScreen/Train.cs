@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace HomeScreen
 {
@@ -15,24 +16,38 @@ namespace HomeScreen
         public Train()
         {
             InitializeComponent();
-            comboBox1.Items.Add("Karachi");
-            comboBox1.Items.Add("Lahore");
-            comboBox1.Items.Add("Islamabad");
-            comboBox1.Items.Add("Sukkur");
-            comboBox1.Items.Add("Jacobabad");
-            comboBox1.Items.Add("Hyderabad");
+        }
+        private void Form_Load(object sender, EventArgs e)
+        {
+            string connectionString = "Data Source=(localdb)\\bookmedatabase;Initial Catalog=BOOKMEDATABASE;Integrated Security=True";
 
+            // SQL query to retrieve data from the database
+            string query = "SELECT ArrivalStation, DepartureStation FROM TrainDatabase";
 
-            comboBox2.Items.Add("Karachi");
-            comboBox2.Items.Add("Lahore");
-            comboBox2.Items.Add("Islamabad");
-            comboBox2.Items.Add("Sukkur");
-            comboBox2.Items.Add("Jacobabad");
-            comboBox2.Items.Add("Hyderabad");
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(query, connection);
+                connection.Open();
 
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    string arrivalStation = reader["ArrivalStation"].ToString();
+                    string departureStation = reader["DepartureStation"].ToString();
+
+                    if (!string.IsNullOrEmpty(arrivalStation))
+                        comboBox1.Items.Add(arrivalStation);
+
+                    if (!string.IsNullOrEmpty(departureStation))
+                        comboBox2.Items.Add(departureStation);
+                }
+
+                reader.Close();
+            }
         }
 
-        
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
@@ -42,8 +57,14 @@ namespace HomeScreen
         {
             if(comboBox1.Text == "From" || comboBox2.Text == "To")
             {
-                MessageBox.Show("Please Select Stations", "Invalid Origin and Destination!" , MessageBoxButtons.OK ,MessageBoxIcon.Information);
+                string msg2 = "Please Select Arrival and Destination Stations";
+                MessageBox.Show(msg2, "" , MessageBoxButtons.OK ,MessageBoxIcon.Information);
                 
+            }
+            else if(comboBox1.Text == comboBox2.Text)
+            {
+                string msg = "Arrival and Departure Stations Cannot be same!";
+                MessageBox.Show(msg,"", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
@@ -71,3 +92,17 @@ namespace HomeScreen
         }
     }
 }
+///comboBox1.Items.Add("Karachi");
+/// comboBox1.Items.Add("Lahore");
+// comboBox1.Items.Add("Islamabad");
+// comboBox1.Items.Add("Sukkur");
+//comboBox1.Items.Add("Jacobabad");
+/// comboBox1.Items.Add("Hyderabad");
+
+
+/// comboBox2.Items.Add("Karachi");
+/// comboBox2.Items.Add("Lahore");
+// comboBox2.Items.Add("Islamabad");
+// comboBox2.Items.Add("Sukkur");
+// comboBox2.Items.Add("Jacobabad");
+///comboBox2.Items.Add("Hyderabad");
