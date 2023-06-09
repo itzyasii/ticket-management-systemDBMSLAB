@@ -32,5 +32,16 @@ namespace HomeScreen.Properties {
                 return ((string)(this["masterConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(localdb)\\bookmedatabase;Initial Catalog=BOOKMEDATABASE;Integrated Se" +
+            "curity=True")]
+        public string BOOKMEDATABASEConnectionString {
+            get {
+                return ((string)(this["BOOKMEDATABASEConnectionString"]));
+            }
+        }
     }
 }

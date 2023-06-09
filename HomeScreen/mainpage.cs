@@ -37,27 +37,38 @@ namespace HomeScreen
         {
             Bus b1 = new Bus();
             b1.Show();
-            
+            this.Hide();
+
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             Flights f1 = new Flights();
             f1.Show();
+            this.Hide();
+
+        
             
         }
         private void button3_Click(object sender, EventArgs e)
         {
             Train t1 = new Train();
             t1.Show();
+            this.Hide();
         }
         private void button5_Click(object sender, EventArgs e)
         {
             movies m1 = new movies();
             m1.Show();
+            this.Hide();
         }
 
         private void mainpage_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
