@@ -47,4 +47,16 @@ bookingDate Date not null,
 ticketStatus varchar(50),
 paymentStatus varchar(50) not null
 
+create table berthStatus(
+berthNo int not null primary key,
+status varchar(50) not null,
+price int not null
+
+);
+
+
+
+
+
+
 );
