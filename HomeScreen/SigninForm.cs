@@ -13,6 +13,7 @@ namespace HomeScreen
 {
     public partial class SigninForm : Form
     {
+        string UserNameToPass = "";
         public SigninForm()
         {
             InitializeComponent();
@@ -69,9 +70,16 @@ namespace HomeScreen
             else
             {
                 string connectionString = "Data Source=(localdb)\\bookmedatabase;Initial Catalog=BOOKMEDATABASE;Integrated Security=True"; // Replace with your actual connection string
-                string username = user.Text;
+                UserNameToPass = user.Text;
                 string password = pass.Text;
-           
+                
+                
+                using ( TrainCompartments tc = new TrainCompartments())
+                {
+                    tc.username = UserNameToPass;
+                }
+                string username = UserNameToPass;
+
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
@@ -86,11 +94,8 @@ namespace HomeScreen
                         if (result > 0)
                         {
                             mainpage m1 = new mainpage();
-                            TrainCompartments tc = new TrainCompartments();
-
                             m1.Show();
                             m1.Settextfromlabel(username);
-                            tc.passengerName = username;
                             this.Hide();
 
                         }
