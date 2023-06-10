@@ -15,9 +15,10 @@ namespace HomeScreen
     {
         public string DepartureStation { get; set; }
         public string ArrivalStation { get; set; }
-        public string passengerName { get; set; }
-
+        
         public DateTime bookingDate { get; set; }
+
+        public string username { get; set; }
 
         int price;
         static int[] bookedSeat;
@@ -1134,7 +1135,7 @@ namespace HomeScreen
         int seatNoBooked;
         private void button25_Click_1(object sender, EventArgs e)
         {
-
+            panel2.Visible = false;
             int i = 0;
             for (i = 0; i < 31; i++)
             {
@@ -1164,27 +1165,34 @@ namespace HomeScreen
 
             string insertTicketData = "insert into trainTicketBooking(ticketID, passengerName, departreStatiom, arrivalStation, " +
                 "seatNumber, fare, bookingDate, ticketStatus, paymentStatus) VALUES (@id, @p_name, @d_station, @a_station, @s_num, @fare, @b_date, @t_status, @p_status) ";
-
-           using( SqlConnection Booking_connection = new SqlConnection("Data Source = (localdb)\\bookmedatabase; Initial Catalog = BOOKMEDATABASE; Integrated Security = True"))
+            int idToFind = 731525176;
+           using ( SqlConnection Booking_connection = new SqlConnection("Data Source = (localdb)\\bookmedatabase; Initial Catalog = BOOKMEDATABASE; Integrated Security = True"))
             {
-
+                
                 Booking_connection.Open();
+                string getUserFnameQuery = "SELECT user_Fname FROM UserInformation WHERE id = @username";
+                string passengerName = string.Empty;
+
+                using (SqlCommand getUserFnameCommand = new SqlCommand(getUserFnameQuery, Booking_connection))
+                {
+                    getUserFnameCommand.Parameters.AddWithValue("@username", idToFind);  // Replace userID with the actual user ID value
+
+                    SqlDataReader reader = getUserFnameCommand.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        // Retrieve the user_Fname value
+                        passengerName = reader["user_Fname"].ToString();
+                    }
+
+                    reader.Close();
+                }
+
                 using ( SqlCommand command = Booking_connection.CreateCommand())
                 {
                     command.CommandText = insertTicketData;
                     command.Parameters.AddWithValue("@id", id);
-                    // Check if passengerName is not empty before adding it as a parameter value
-                    if (!string.IsNullOrEmpty(passengerName))
-                    {
-                        command.Parameters.AddWithValue("@p_name", passengerName);
-                    }
-                    else
-                    {
-                   
-                        command.Parameters.AddWithValue("@p_name", DBNull.Value);
-                        // throw new Exception("Passenger name is required."); // Example of throwing an exception
-                    }
-
+                    command.Parameters.AddWithValue("@p_name", passengerName);
                     command.Parameters.AddWithValue("@d_station", DepartureStation);
                     command.Parameters.AddWithValue("@a_station", ArrivalStation);
                     command.Parameters.AddWithValue("@s_num", seatNoBooked);
@@ -1192,14 +1200,13 @@ namespace HomeScreen
                     command.Parameters.AddWithValue("@b_date", bookingDate);
                     command.Parameters.AddWithValue("@t_status", t_Status);
                     command.Parameters.AddWithValue("@p_status", p_Status);
-
-
                     command.ExecuteNonQuery();
 
                 }
             }
 
-
+            printTicket pt = new printTicket();
+            pt.Show();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -1207,13 +1214,14 @@ namespace HomeScreen
             panel3.Visible = false;
             bookme.BackColor = System.Drawing.Color.RoyalBlue;
             bookme.Enabled = true;
-            this.Refresh();
+            panel2.Visible = true;
+            panel2.Refresh();
 
         }
         private static int GenerateUniqueId()
         {
-            // Generate a unique ID based on the current timestamp (you can modify this according to your requirements)
-            return (int)DateTime.Now.Ticks;
+            int id=1;
+            return id++;
         }
 
 

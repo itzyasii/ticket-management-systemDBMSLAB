@@ -16,7 +16,7 @@ namespace HomeScreen
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SigninForm());
+            Application.Run(new Form1());
         }
     }
 }
