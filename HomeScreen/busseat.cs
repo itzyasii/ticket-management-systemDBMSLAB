@@ -27,6 +27,7 @@ namespace HomeScreen
                 bus_seat_price = new int[20];
                 bookedseat = new int[20];
                 tempbookseat = new int[20];
+
                 tempbookseat[0] = 0;
                 bus_seat_price[0] = 600;
                 tempbookseat[1] = 0;
@@ -71,9 +72,9 @@ namespace HomeScreen
         }
         private void alreadybooked()
         {
-            String mycon = "Data Source=MAAZ\\SQLEXPRESS;Initial Catalog=master;Integrated Security=True";
-            String myquery = "Select * from Seatstatus";
-            SqlConnection con = new SqlConnection(mycon);
+         
+            String myquery = "Select * from SeatStatus";
+            SqlConnection con = new SqlConnection("Data Source = (localdb)\\bookmedatabase; Initial Catalog = BOOKMEDATABASE; Integrated Security = True");
             SqlCommand cmd = new SqlCommand();
             cmd.CommandText = myquery;
             cmd.Connection = con;
@@ -636,6 +637,9 @@ namespace HomeScreen
 
         }
 
-       
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

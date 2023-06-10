@@ -52,9 +52,10 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(24, 196);
+            this.checkBox1.Location = new System.Drawing.Point(147, 233);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(143, 29);
+            this.checkBox1.Size = new System.Drawing.Size(123, 26);
             this.checkBox1.TabIndex = 1;
             this.checkBox1.Text = "RoundTrip";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -64,9 +65,10 @@
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(173, 196);
+            this.checkBox2.Location = new System.Drawing.Point(280, 233);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(141, 29);
+            this.checkBox2.Size = new System.Drawing.Size(119, 26);
             this.checkBox2.TabIndex = 2;
             this.checkBox2.Text = "One Way";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -76,9 +78,10 @@
             // 
             this.checkBox3.AutoSize = true;
             this.checkBox3.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(322, 196);
+            this.checkBox3.Location = new System.Drawing.Point(412, 233);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(142, 29);
+            this.checkBox3.Size = new System.Drawing.Size(116, 26);
             this.checkBox3.TabIndex = 3;
             this.checkBox3.Text = "Multi-City";
             this.checkBox3.UseVisualStyleBackColor = true;
@@ -89,19 +92,20 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(19, 151);
+            this.label1.Location = new System.Drawing.Point(143, 187);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(267, 26);
+            this.label1.Size = new System.Drawing.Size(263, 23);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Search and Book Flights";
+            this.label1.Text = "SEARCH AND BOOK FLIGHTS";
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Silver;
-            this.textBox1.Location = new System.Drawing.Point(24, 246);
+            this.textBox1.Location = new System.Drawing.Point(147, 275);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(244, 32);
+            this.textBox1.Size = new System.Drawing.Size(217, 28);
             this.textBox1.TabIndex = 5;
             this.textBox1.Text = "CITY OR AIRPORT";
             this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter_1);
@@ -111,9 +115,10 @@
             // 
             this.textBox2.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.Silver;
-            this.textBox2.Location = new System.Drawing.Point(274, 246);
+            this.textBox2.Location = new System.Drawing.Point(370, 275);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(244, 32);
+            this.textBox2.Size = new System.Drawing.Size(217, 28);
             this.textBox2.TabIndex = 7;
             this.textBox2.Text = "CITY OR AIRPORT";
             this.textBox2.Enter += new System.EventHandler(this.textBox2_Enter);
@@ -123,18 +128,20 @@
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(24, 293);
+            this.dateTimePicker1.Location = new System.Drawing.Point(147, 321);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(244, 32);
+            this.dateTimePicker1.Size = new System.Drawing.Size(217, 28);
             this.dateTimePicker1.TabIndex = 9;
             // 
             // dateTimePicker2
             // 
             this.dateTimePicker2.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker2.Location = new System.Drawing.Point(274, 293);
+            this.dateTimePicker2.Location = new System.Drawing.Point(370, 321);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(244, 32);
+            this.dateTimePicker2.Size = new System.Drawing.Size(217, 28);
             this.dateTimePicker2.TabIndex = 10;
             this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
@@ -143,9 +150,10 @@
             this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(24, 337);
+            this.comboBox1.Location = new System.Drawing.Point(147, 363);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(494, 33);
+            this.comboBox1.Size = new System.Drawing.Size(440, 29);
             this.comboBox1.TabIndex = 11;
             this.comboBox1.Text = "1-Economy";
             // 
@@ -153,9 +161,10 @@
             // 
             this.checkBox4.AutoSize = true;
             this.checkBox4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.Location = new System.Drawing.Point(24, 386);
+            this.checkBox4.Location = new System.Drawing.Point(147, 402);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(222, 25);
+            this.checkBox4.Size = new System.Drawing.Size(186, 24);
             this.checkBox4.TabIndex = 12;
             this.checkBox4.Text = "My Dates are Flexible";
             this.checkBox4.UseVisualStyleBackColor = true;
@@ -166,9 +175,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(24, 418);
+            this.button1.Location = new System.Drawing.Point(147, 439);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(494, 66);
+            this.button1.Size = new System.Drawing.Size(439, 53);
             this.button1.TabIndex = 13;
             this.button1.Text = "BOOKME";
             this.button1.UseVisualStyleBackColor = false;
@@ -176,9 +186,10 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::HomeScreen.Properties.Resources.NicePng_location_sign_png_43183551;
-            this.pictureBox3.Location = new System.Drawing.Point(492, 249);
+            this.pictureBox3.Location = new System.Drawing.Point(563, 286);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(22, 27);
+            this.pictureBox3.Size = new System.Drawing.Size(20, 22);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 14;
             this.pictureBox3.TabStop = false;
@@ -186,9 +197,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::HomeScreen.Properties.Resources.NicePng_location_sign_png_43183551;
-            this.pictureBox2.Location = new System.Drawing.Point(241, 249);
+            this.pictureBox2.Location = new System.Drawing.Point(340, 286);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(22, 27);
+            this.pictureBox2.Size = new System.Drawing.Size(20, 22);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
@@ -196,9 +208,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(549, 18);
+            this.pictureBox1.Location = new System.Drawing.Point(812, 80);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(480, 653);
+            this.pictureBox1.Size = new System.Drawing.Size(427, 522);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -206,10 +219,10 @@
             // 
             // Flights
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1050, 692);
+            this.ClientSize = new System.Drawing.Size(1262, 673);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox4);
@@ -225,6 +238,7 @@
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "Flights";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

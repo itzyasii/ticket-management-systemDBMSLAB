@@ -68,7 +68,7 @@ namespace HomeScreen
             }
             else
             {
-                string connectionString = "Data Source=MAAZ\\SQLEXPRESS;Initial Catalog=master;Integrated Security=True"; // Replace with your actual connection string
+                string connectionString = "Data Source=(localdb)\\bookmedatabase;Initial Catalog=BOOKMEDATABASE;Integrated Security=True"; // Replace with your actual connection string
                 string username = user.Text;
                 string password = pass.Text;
            
@@ -86,8 +86,11 @@ namespace HomeScreen
                         if (result > 0)
                         {
                             mainpage m1 = new mainpage();
+                            TrainCompartments tc = new TrainCompartments();
+
                             m1.Show();
                             m1.Settextfromlabel(username);
+                            tc.passengerName = username;
                             this.Hide();
 
                         }

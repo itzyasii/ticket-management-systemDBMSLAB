@@ -48,6 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BOOKMEDATABASEDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BOOKMEDATABASEDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Bus.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +125,12 @@
     <Compile Include="Train.Designer.cs">
       <DependentUpon>Train.cs</DependentUpon>
     </Compile>
+    <Compile Include="TrainCompartments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainCompartments.Designer.cs">
+      <DependentUpon>TrainCompartments.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Bus.resx">
       <DependentUpon>Bus.cs</DependentUpon>
     </EmbeddedResource>
@@ -155,6 +166,20 @@
     <EmbeddedResource Include="Train.resx">
       <DependentUpon>Train.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TrainCompartments.resx">
+      <DependentUpon>TrainCompartments.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="BOOKMEDATABASEDataSet.xsc">
+      <DependentUpon>BOOKMEDATABASEDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BOOKMEDATABASEDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BOOKMEDATABASEDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BOOKMEDATABASEDataSet.xss">
+      <DependentUpon>BOOKMEDATABASEDataSet.xsd</DependentUpon>
+    </None>
     <None Include="masterDataSet.xsc">
       <DependentUpon>masterDataSet.xsd</DependentUpon>
     </None>
